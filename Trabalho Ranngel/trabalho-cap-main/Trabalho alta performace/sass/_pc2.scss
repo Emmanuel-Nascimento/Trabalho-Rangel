@@ -1,0 +1,262 @@
+@use "variables" as cor;
+
+@mixin tela{
+    body {
+        // Corpo da página
+        font-family: "Rubik", sans-serif;
+        color: white;
+        background-color: cor.$color-bg;
+      }
+    
+      .topo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+      }
+    
+      .topo img {
+        //Logo da pagina
+        width: 200px;
+        height: 69.23px;
+        margin-top: 40px;
+        margin-left: 352px;
+      }
+    
+      .register {
+        //Botão Register
+        margin-top: 53px;
+        margin-right: 352px;
+      }
+    
+      .register button {
+        width: 176px;
+        height: 53px;
+        background-color: cor.$color-yellow;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    
+      button:hover {
+        // Mudar cor do Botão quando passar o mouse
+        background-color: white;
+      }
+    
+      .botao:hover {
+        // Mudar cor do Botão quando passar o mouse
+        background-color: white;
+      }
+    
+      .lista {
+        // Lista do topo da pagina
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin-top: 65px;
+        margin-left: 300px;
+        margin-right: 347px;
+        :hover {
+          color: cor.$color-yellow;
+        }
+      }
+    
+      .lista li {
+        margin-right: 64px;
+        cursor: pointer;
+      }
+    
+      .content {
+        // Div geral do revolution e imagens
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+    
+      .revolution {
+        @include cor.frases;
+        margin-left: 538px;
+        margin-right: 537px;
+        margin-top: 127px;
+      }
+    
+      .lista2 {
+        // Lista de baixo da revolution
+        display: flex;
+        list-style-type: none;
+      }
+    
+      .lista2 li {
+        margin-top: -20px;
+        display: flex;
+        margin-right: 76px;
+        color: cor.$color-border;
+      }
+    
+      .lista2 li img {
+        width: 24px;
+        height: 24px;
+      }
+    
+      .cadastro {
+        // Cadastro das duas barras
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+      }
+    
+      .cadastro input {
+        // Input das duas barras de email
+        width: 384px;
+        height: 58px;
+        border-radius: 30px;
+        padding-left: 20px;
+        margin-right: 20px;
+        background-color: transparent;
+        border-color: cor.$color-border;
+        color: cor.$color-border;
+      }
+    
+      .cadastro button {
+        // botão das duas barras de registro
+        width: 178px;
+        height: 58px;
+        border-radius: 30px;
+        background-color: cor.$color-yellow;
+        font-family: "Rubik", sans-serif;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    
+      .imagens {
+        // Div dos celulares e quadrados
+        display: flex;
+        position: relative;
+        width: 1216px;
+        height: 640.43px;
+        margin-left: 352px;
+        margin-right: 352px;
+        margin-top: 100px;
+      }
+
+      .EGigante {
+        display: none;
+      }
+    
+      .quadrado img {
+        //Confere do Quadrado
+        width: 24px;
+        height: 24px;
+        margin-top: 40px;
+        margin-left: 32px;
+      }
+    
+      .cd {
+        // Quadrado de cima da direita
+        background-color: cor.$color-card;
+        position: absolute;
+        border-radius: 10px;
+        width: 265px;
+        height: 268px;
+        top: 37px;
+        right: 310px;
+      }
+    
+      .ce {
+        // Quadrado de cima da esquerda
+        background-color: cor.$color-card;
+        position: absolute;
+        border-radius: 10px;
+        width: 265px;
+        height: 268px;
+        top: 37px;
+        left: 951px;
+      }
+    
+      .bd {
+        // Quadrado de baixo da direita
+        background-color: cor.$color-card;
+        position: absolute;
+        border-radius: 10px;
+        width: 265px;
+        height: 268px;
+        top: 349px;
+        bottom: 23.43px;
+        right: 310px;
+      }
+    
+      .be {
+        // Quadrado de baixo da esquerda
+        background-color: cor.$color-card;
+        position: absolute;
+        border-radius: 10px;
+        width: 265px;
+        height: 268px;
+        top: 349px;
+        bottom: 23.43px;
+        left: 951px;
+      }
+    
+      .nomecima {
+        // Nome de cima do quadrado
+        color: cor.$color-letracima;
+        font-weight: bold;
+        font-size: 24px;
+        margin-top: 8px;
+        margin-left: 32px;
+        margin-bottom: 13px;
+      }
+      .nomebaixo {
+        // Nome de baixo do quadrado
+        color: cor.$color-letrabaixo;
+        font-size: 16px;
+        margin-top: 13px;
+        margin-left: 32px;
+        margin-right: 33px;
+        margin-bottom: 70px;
+      }
+    
+      .equipe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 59.57px;
+        color: cor.$color-border;
+      }
+    
+      .barra {
+        // barra de diivisão da equipe
+        width: 1217px;
+        border: 1px solid;
+        color: cor.$color-border;
+        margin-top: 100px;
+      }
+    
+      .cadastro2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+      }
+    
+      .cadastro2 button{
+        @include cor.botao;
+      }
+    
+      .cadastro2 input{
+        @include cor.email;
+        border-radius: 30px;
+        padding-left: 20px;
+        margin-right: 20px;
+      }
+    
+      .revolution2{
+        @include cor.frases;
+        margin-left: 538px;
+        margin-right: 537px;
+        margin-top: 100px;
+      }
+}

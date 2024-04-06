@@ -1,0 +1,883 @@
+@media (min-width: 1440px) and (max-width: 1919px) {
+  body {
+    font-family: "Rubik", sans-serif;
+    color: white;
+    background-color: #080B11;
+  }
+  .topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .topo img {
+    width: 200px;
+    height: 69.23px;
+    margin-top: 40px;
+    margin-left: 112px;
+  }
+  .register {
+    margin-top: 53px;
+    margin-right: 112px;
+  }
+  .register button {
+    width: 176px;
+    height: 53px;
+    background-color: #FFB72D;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: white;
+  }
+  .botao:hover {
+    background-color: white;
+  }
+  .lista {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 65px;
+  }
+  .lista :hover {
+    color: #FFB72D;
+  }
+  .lista li {
+    margin-right: 64px;
+    cursor: pointer;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .revolution {
+    display: flex;
+    color: #FFB72D;
+    font-size: 64px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 297px;
+    margin-right: 298px;
+    margin-top: 101.77px;
+  }
+  .lista2 {
+    display: flex;
+    list-style-type: none;
+  }
+  .lista2 li {
+    display: flex;
+    margin-right: 76px;
+    margin-top: -20px;
+    color: #7D7D7D;
+  }
+  .lista2 li img {
+    width: 24px;
+    height: 24px;
+  }
+  .cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+  .cadastro input {
+    width: 384px;
+    height: 58px;
+    background-color: transparent;
+    border-color: #7D7D7D;
+    color: #7D7D7D;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-right: 20px;
+  }
+  .cadastro button {
+    width: 178px;
+    height: 58px;
+    border-radius: 30px;
+    background-color: #FFB72D;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .imagens {
+    display: flex;
+    position: relative;
+    width: 1216px;
+    height: 640.43px;
+    margin-left: 112px;
+    margin-right: 112px;
+    margin-top: 100px;
+  }
+  .EGigante {
+    display: none;
+  }
+  .quadrado img {
+    width: 24px;
+    height: 24px;
+    margin-top: 40px;
+    margin-left: 32px;
+  }
+  .cd {
+    background-color: #FEF6F0;
+    position: absolute;
+    border-radius: 10px;
+    width: 265px;
+    height: 268px;
+    top: 37px;
+    right: 310px;
+  }
+  .ce {
+    background-color: #FEF6F0;
+    position: absolute;
+    border-radius: 10px;
+    width: 265px;
+    height: 268px;
+    top: 37px;
+    left: 951px;
+  }
+  .bd {
+    background-color: #FEF6F0;
+    position: absolute;
+    border-radius: 10px;
+    width: 265px;
+    height: 268px;
+    top: 349px;
+    bottom: 23.43px;
+    right: 310px;
+  }
+  .be {
+    background-color: #FEF6F0;
+    position: absolute;
+    border-radius: 10px;
+    width: 265px;
+    height: 268px;
+    top: 349px;
+    bottom: 23.43px;
+    left: 951px;
+  }
+  .nomecima {
+    color: #5E4E41;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-bottom: 13px;
+  }
+  .nomebaixo {
+    color: #B1957E;
+    font-size: 16px;
+    margin-top: 13px;
+    margin-left: 32px;
+    margin-right: 33px;
+    margin-bottom: 70px;
+  }
+  .equipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 59.57px;
+    color: #7D7D7D;
+  }
+  .barra {
+    width: 1217px;
+    border: 1px solid;
+    color: #7D7D7D;
+    margin-top: 100px;
+  }
+  .cadastro2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+  .cadastro2 button {
+    width: 178px;
+    height: 58px;
+    border-radius: 30px;
+    background-color: #FFB72D;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .cadastro2 input {
+    width: 384px;
+    height: 58px;
+    background-color: transparent;
+    border-color: #7D7D7D;
+    color: #7D7D7D;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-right: 20px;
+  }
+  .revolution2 {
+    display: flex;
+    color: #FFB72D;
+    font-size: 64px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 538px;
+    margin-right: 537px;
+    margin-top: 100px;
+  }
+}
+@media (min-width: 1920px) {
+  body {
+    font-family: "Rubik", sans-serif;
+    color: white;
+    background-color: #080B11;
+  }
+  .topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .topo img {
+    width: 200px;
+    height: 69.23px;
+    margin-top: 40px;
+    margin-left: 352px;
+  }
+  .register {
+    margin-top: 53px;
+    margin-right: 352px;
+  }
+  .register button {
+    width: 176px;
+    height: 53px;
+    background-color: #FFB72D;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: white;
+  }
+  .botao:hover {
+    background-color: white;
+  }
+  .lista {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 65px;
+    margin-left: 300px;
+    margin-right: 347px;
+  }
+  .lista :hover {
+    color: #FFB72D;
+  }
+  .lista li {
+    margin-right: 64px;
+    cursor: pointer;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .revolution {
+    display: flex;
+    color: #FFB72D;
+    font-size: 64px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 538px;
+    margin-right: 537px;
+    margin-top: 127px;
+  }
+  .lista2 {
+    display: flex;
+    list-style-type: none;
+  }
+  .lista2 li {
+    margin-top: -20px;
+    display: flex;
+    margin-right: 76px;
+    color: #7D7D7D;
+  }
+  .lista2 li img {
+    width: 24px;
+    height: 24px;
+  }
+  .cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+  .cadastro input {
+    width: 384px;
+    height: 58px;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-right: 20px;
+    background-color: transparent;
+    border-color: #7D7D7D;
+    color: #7D7D7D;
+  }
+  .cadastro button {
+    width: 178px;
+    height: 58px;
+    border-radius: 30px;
+    background-color: #FFB72D;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .imagens {
+    display: flex;
+    position: relative;
+    width: 1216px;
+    height: 640.43px;
+    margin-left: 352px;
+    margin-right: 352px;
+    margin-top: 100px;
+  }
+  .EGigante {
+    display: none;
+  }
+  .quadrado img {
+    width: 24px;
+    height: 24px;
+    margin-top: 40px;
+    margin-left: 32px;
+  }
+  .cd {
+    background-color: #FEF6F0;
+    position: absolute;
+    border-radius: 10px;
+    width: 265px;
+    height: 268px;
+    top: 37px;
+    right: 310px;
+  }
+  .ce {
+    background-color: #FEF6F0;
+    position: absolute;
+    border-radius: 10px;
+    width: 265px;
+    height: 268px;
+    top: 37px;
+    left: 951px;
+  }
+  .bd {
+    background-color: #FEF6F0;
+    position: absolute;
+    border-radius: 10px;
+    width: 265px;
+    height: 268px;
+    top: 349px;
+    bottom: 23.43px;
+    right: 310px;
+  }
+  .be {
+    background-color: #FEF6F0;
+    position: absolute;
+    border-radius: 10px;
+    width: 265px;
+    height: 268px;
+    top: 349px;
+    bottom: 23.43px;
+    left: 951px;
+  }
+  .nomecima {
+    color: #5E4E41;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-bottom: 13px;
+  }
+  .nomebaixo {
+    color: #B1957E;
+    font-size: 16px;
+    margin-top: 13px;
+    margin-left: 32px;
+    margin-right: 33px;
+    margin-bottom: 70px;
+  }
+  .equipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 59.57px;
+    color: #7D7D7D;
+  }
+  .barra {
+    width: 1217px;
+    border: 1px solid;
+    color: #7D7D7D;
+    margin-top: 100px;
+  }
+  .cadastro2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+  .cadastro2 button {
+    width: 178px;
+    height: 58px;
+    border-radius: 30px;
+    background-color: #FFB72D;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .cadastro2 input {
+    width: 384px;
+    height: 58px;
+    background-color: transparent;
+    border-color: #7D7D7D;
+    color: #7D7D7D;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-right: 20px;
+  }
+  .revolution2 {
+    display: flex;
+    color: #FFB72D;
+    font-size: 64px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 538px;
+    margin-right: 537px;
+    margin-top: 100px;
+  }
+}
+@media (min-width: 390px) and (max-width: 1023px) {
+  body {
+    font-family: "Rubik", sans-serif;
+    color: white;
+    background-color: #080B11;
+  }
+  .topo img {
+    display: flex;
+    width: 150px;
+    height: 54.86px;
+    margin: 37.05px 120px 0px 120px;
+  }
+  .register {
+    display: none;
+  }
+  .register button {
+    display: none;
+  }
+  .lista {
+    display: none;
+  }
+  .lista li {
+    display: none;
+  }
+  .revolution {
+    display: flex;
+    color: #FFB72D;
+    font-size: 64px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 32px;
+    width: 334px;
+    height: 152px;
+    margin: 63.1px 28px 0px 28px;
+  }
+  .lista2 {
+    list-style-type: none;
+    width: 203px;
+    height: 64px;
+    margin: 56px 60px 0px;
+    font-size: 16px;
+  }
+  .relogio {
+    margin-left: 21.5px;
+  }
+  .lista2 li {
+    margin-top: 16px;
+    display: flex;
+    color: #7D7D7D;
+  }
+  .lista2 li img {
+    width: 24px;
+    height: 24px;
+  }
+  .cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 56px 19px 0px;
+    width: 352px;
+    height: 128px;
+  }
+  .cadastro input {
+    width: 352px;
+    height: 58px;
+    border-radius: 30px;
+    background-color: transparent;
+    border-color: #7D7D7D;
+    color: #7D7D7D;
+  }
+  .cadastro button {
+    width: 360px;
+    height: 58px;
+    margin-top: 12px;
+    border-radius: 30px;
+    background-color: #FFB72D;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .imagens {
+    display: flex;
+    flex-direction: column;
+    margin: 38px 60px 0px;
+  }
+  .EGigante {
+    display: none;
+  }
+  .celular img {
+    width: 270px;
+    height: 288px;
+  }
+  .quadrado img {
+    width: 24px;
+    height: 24px;
+    margin-top: 40px;
+    margin-left: 32px;
+  }
+  .cd {
+    background-color: #FEF6F0;
+    border-radius: 10px;
+    width: 265px;
+    height: 268px;
+    margin-top: 32px;
+  }
+  .ce {
+    background-color: #FEF6F0;
+    border-radius: 10px;
+    width: 265px;
+    height: 268px;
+    margin-top: 55px;
+  }
+  .bd {
+    background-color: #FEF6F0;
+    border-radius: 10px;
+    width: 265px;
+    height: 268px;
+    margin-top: 32px;
+  }
+  .be {
+    background-color: #FEF6F0;
+    border-radius: 10px;
+    width: 265px;
+    height: 268px;
+    margin-top: 32px;
+  }
+  .nomecima {
+    color: #5E4E41;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-bottom: 13px;
+  }
+  .nomebaixo {
+    color: #B1957E;
+    font-size: 16px;
+    margin-top: 13px;
+    margin-left: 32px;
+    margin-right: 33px;
+    margin-bottom: 70px;
+  }
+  .equipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin: 32px 42px 0px;
+    height: 19px;
+    color: #7D7D7D;
+  }
+  .barra {
+    width: 352px;
+    margin: 49px 19px 0px;
+    border: 1px solid;
+    color: #7D7D7D;
+  }
+  .cadastro2 button {
+    width: 360px;
+    height: 58px;
+    margin-top: 12px;
+    border-radius: 30px;
+    background-color: #FFB72D;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .cadastro2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 19px 0px;
+    width: 352px;
+    height: 128px;
+  }
+  .cadastro2 input {
+    width: 352px;
+    height: 58px;
+    border-radius: 30px;
+    background-color: transparent;
+    border-color: #7D7D7D;
+    color: #7D7D7D;
+  }
+  .revolution2 {
+    display: flex;
+    color: #FFB72D;
+    font-size: 64px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 32px;
+    width: 334px;
+    height: 38px;
+    margin: 55px 28px 0px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+  body {
+    font-family: "Rubik", sans-serif;
+    color: white;
+    background-color: #080B11;
+  }
+  .topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .topo img {
+    width: 200px;
+    height: 69.23px;
+    margin-top: 40px;
+    margin-left: 48px;
+  }
+  .register {
+    margin-top: 53px;
+    margin-right: 48px;
+  }
+  .register button {
+    width: 176px;
+    height: 53px;
+    background-color: #FFB72D;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: white;
+  }
+  .botao:hover {
+    background-color: white;
+  }
+  .lista {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 65px;
+    margin-left: 70px;
+  }
+  .lista :hover {
+    color: #FFB72D;
+  }
+  .lista li {
+    margin-right: 64px;
+    cursor: pointer;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .revolution {
+    display: flex;
+    color: #FFB72D;
+    font-size: 64px;
+    text-align: center;
+    justify-content: center;
+    width: 845px;
+    height: 228px;
+    margin-left: 538px;
+    margin-right: 537px;
+    margin-top: 127px;
+  }
+  .lista2 {
+    display: flex;
+    list-style-type: none;
+    margin: 63px 300px 0px 285px;
+    width: 439px;
+    font-size: 16px;
+  }
+  .lista2 .relogio {
+    width: 160px;
+  }
+  .lista2 .cartao {
+    width: 203px;
+  }
+  .lista2 li {
+    color: #7D7D7D;
+    margin-left: 76px;
+  }
+  .lista2 li img {
+    width: 24px;
+    height: 24px;
+  }
+  .cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 216px 0px;
+  }
+  .cadastro input {
+    width: 384px;
+    height: 58px;
+    border-radius: 30px;
+    margin-right: 20px;
+    background-color: transparent;
+    border-color: #7D7D7D;
+    color: #7D7D7D;
+  }
+  .cadastro button {
+    width: 178px;
+    height: 58px;
+    border-radius: 30px;
+    background-color: #FFB72D;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .celular {
+    width: 400px;
+    height: 426.95px;
+    margin: 75px 312px 0px 312px;
+    display: flex;
+    position: relative;
+  }
+  .EGigante {
+    display: flex;
+    position: absolute;
+    width: 583px;
+    height: 505px;
+    margin: 62px 221px 0px 220px;
+  }
+  .quadrado img {
+    width: 24px;
+    height: 24px;
+    margin-top: 40px;
+    margin-left: 32px;
+  }
+  .quadrado {
+    display: flex;
+    margin: 46.05px 48px 0px;
+    position: relative;
+  }
+  .quadrado .cd {
+    background-color: #FEF6F0;
+    border-radius: 10px;
+    width: 221px;
+    height: 282px;
+    margin-left: 15px;
+  }
+  .quadrado .ce {
+    background-color: #FEF6F0;
+    border-radius: 10px;
+    width: 221px;
+    height: 282px;
+  }
+  .quadrado .bd {
+    background-color: #FEF6F0;
+    border-radius: 10px;
+    width: 221px;
+    height: 282px;
+    margin-left: 15px;
+  }
+  .quadrado .be {
+    background-color: #FEF6F0;
+    border-radius: 10px;
+    width: 221px;
+    height: 282px;
+    margin-left: 15px;
+  }
+  .nomecima {
+    color: #5E4E41;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-bottom: 13px;
+  }
+  .nomebaixo {
+    color: #B1957E;
+    font-size: 16px;
+    margin-top: 13px;
+    margin-left: 32px;
+    margin-right: 33px;
+    margin-bottom: 70px;
+  }
+  .equipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 57px 48px 49px 48px;
+    color: #7D7D7D;
+    width: 928px;
+  }
+  .barra {
+    width: 928px;
+    border: 1px solid;
+    color: #7D7D7D;
+    margin: 68px 48px 0px;
+  }
+  .cadastro2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 212px 0px 220px;
+  }
+  .cadastro2 button {
+    width: 178px;
+    height: 58px;
+    border-radius: 30px;
+    background-color: #FFB72D;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .cadastro2 input {
+    width: 384px;
+    height: 58px;
+    background-color: transparent;
+    border-color: #7D7D7D;
+    color: #7D7D7D;
+    border-radius: 30px;
+    margin-right: 20px;
+  }
+  .revolution2 {
+    font-size: 64px;
+    display: flex;
+    color: #FFB72D;
+    font-size: 64px;
+    text-align: center;
+    justify-content: center;
+    margin: 57px 313px 0px 321px;
+  }
+}/*# sourceMappingURL=style.css.map */

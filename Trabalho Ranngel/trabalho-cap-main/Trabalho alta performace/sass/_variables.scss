@@ -1,0 +1,39 @@
+$color-yellow: #FFB72D;
+$color-bg: #080B11;
+$color-border: #7D7D7D;
+$color-card: #FEF6F0;
+$color-letrabaixo: #B1957E;
+$color-letracima: #5E4E41;
+
+@mixin botao{
+    width: 178px;
+    height: 58px;
+    border-radius: 30px;
+    background-color: $color-yellow;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@mixin email{
+    width: 384px;
+    height: 58px;
+    background-color: transparent;
+    border-color: $color-border;
+    color: $color-border;
+}
+
+@mixin frases{
+    display: flex;
+    color: $color-yellow;
+    font-size: 64px;
+    text-align: center;
+    justify-content: center;
+}
+
+@mixin quadrado{
+    background-color: $color-card;
+    border-radius: 10px;
+    width: 265px;
+    height: 268px;
+}

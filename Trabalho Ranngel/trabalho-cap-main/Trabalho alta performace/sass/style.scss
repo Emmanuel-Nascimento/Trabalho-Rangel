@@ -1,0 +1,22 @@
+@use "variables" as cor;
+@use "pc1";
+@use "pc2";
+@use "ipadpro";
+@use "iphone13";
+
+@media (min-width: 1440px) and (max-width: 1919px){
+ @include pc1.tela;
+}
+
+
+@media (min-width: 1920px){
+ @include pc2.tela;
+}
+
+@media (min-width: 390px) and (max-width: 1023px){
+  @include iphone13.tela;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px){
+ @include ipadpro.tela;
+}
